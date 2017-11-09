@@ -202,7 +202,7 @@ The weighted_edge matrix contains the information of edge connections among all 
 
 weighted_edge[i][j] contains the weight of the connecting edge between the sentence vertex represented by sentence of index i and the sentence vertex represented by sentence of index j.
 
-If weighted_edge[i][j] is zero, it means no edge connection is present between the words represented by index i and j.
+If weighted_edge[i][j] is zero, it means no edge connection is present between the sentences represented by index i and j.
 
 There is a connection between the sentences (and thus between i and j which represents them) if the the value of the similarity between the two sentences is non-zero. The weight of the connection is the value of the similary between the connected vertices.
 
