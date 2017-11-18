@@ -64,7 +64,7 @@ for line in file.readlines():
 file.close()
 ```
 
-### Removing non-printable characters from data and tokenizing the resultant test.
+### Removing non-printable characters from data and tokenizing the resultant text.
 
 
 ```python
@@ -196,7 +196,7 @@ for sentence in tokenized_sentences:
 
 ### Building Graph
 
-TextRank is a graph based model, and thus it requires us to build a graph. Each sentence in the text will serve as a vertex for graph. The sentences will be represented in the vertices by their index in the list of sentences\processed_sentences. 
+TextRank is a graph based model, and thus it requires us to build a graph. Each sentence in the text will serve as a vertex for the graph. The sentences will be represented in the vertices by their index in the list of sentences\processed_sentences. 
 
 The weighted_edge matrix contains the information of edge connections among all the vertices. I am building a wieghted undirected edges.
 
